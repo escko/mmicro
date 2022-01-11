@@ -21,7 +21,4 @@
     status = "okay";
 };
 
-&left1_encoder {
-    status = "okay";
-};
 

@@ -11,7 +11,7 @@
 #define BLUET   3
 
 &left_encoder { resolution = <2>; };
-&left1_encoder { resolution = <2>; };
+// &left1_encoder { resolution = <2>; };
 // &right_encoder { resolution = <1>; };
 
 
@@ -31,7 +31,7 @@
    &trans &trans &kp LG(N0)   &kp E     &kp W    &kp LSHFT                            &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp DQT
                                   &kp LGUI &kp LALT &mo LOWER                      &mo RAISE &lt LOWER SPACE &kp LGUI
                         >;
-                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp LC(RBKT) LC(LBKT)>;
+                        sensor-bindings = <&inc_dec_kp LC(RBKT) LC(LBKT)>;
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
@@ -45,7 +45,7 @@
    &trans &trans &trans     &kp R     &kp T    &kp S                            &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp DQT
                                       &kp M &kp V &trans                       &mo RAISE &lt LOWER SPACE &kp LGUI
                         >;
-                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp LC(RBKT) LC(LBKT)>;
+                        sensor-bindings = <&inc_dec_kp LC(RBKT) LC(LBKT)>;
                 };
                 raise_layer {
 // -----------------------------------------------------------------------------------------
@@ -59,7 +59,7 @@
    &trans &trans &mo BLUET  &kp LS(LGUI)  &kp F  &kp I                            &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp DQT
                                       &kp N0 &kp Z &kp X                      &mo RAISE &lt LOWER SPACE &kp LGUI
                         >;
-                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp LBKT RBKT>;
+                        sensor-bindings = <&inc_dec_kp LBKT RBKT>;
                 };
                 bluet_layer {
 // -----------------------------------------------------------------------------------------
@@ -73,7 +73,7 @@
    &trans &trans &trans     &rgb_ug RGB_SAD  &rgb_ug RGB_SAI  &bt BT_SEL 1                            &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp DQT
                                       &rgb_ug RGB_TOG &rgb_ug RGB_HUD &bt BT_CLR                      &mo RAISE &lt LOWER SPACE &kp LGUI
                         >;
-                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp LBKT RBKT>;
+                        sensor-bindings = <&inc_dec_kp LBKT RBKT>;
                 };
         };
 };
