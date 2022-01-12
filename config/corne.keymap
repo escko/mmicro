@@ -49,7 +49,7 @@
    &trans &trans &trans     &trans     &kp F    &kp A                            &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp DQT
                                       &kp T &kp M &kp N4                       &mo RAISE &lt LOWER SPACE &kp LGUI
                         >;
-                        sensor-bindings = <&inc_dec_kp LBKT RBKT>;
+                        sensor-bindings = <&inc_dec_kp LC(LBKT) LC(RBKT)>;
                 };
                 raise_layer {
 // -----------------------------------------------------------------------------------------
@@ -63,7 +63,7 @@
    &trans &trans &mo GREEN  &kp LS(LGUI)  &kp D  &kp V                            &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp DQT
                                       &kp R &kp Z &kp Y                      &mo RAISE &lt LOWER SPACE &kp LGUI
                         >;
-                        sensor-bindings = <&inc_dec_kp LBKT RBKT>;
+                        sensor-bindings = <&inc_dec_kp LC(LBKT) LC(RBKT)>;
                 };
                 green_layer {
 // -----------------------------------------------------------------------------------------
