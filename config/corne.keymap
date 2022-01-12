@@ -29,7 +29,7 @@
    &trans &trans &trans       &trans    &trans   &trans                   &kp Z &kp U  &kp I    &kp O   &kp P    &kp BKSP
    &trans &trans &trans       &mo RED &kp LBKT &kp RBKT                  &kp H &kp J  &kp K    &kp L   &kp APOS &kp RET
    &trans &trans &kp LG(N0)   &kp E     &kp B    &kp LSHFT                            &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp DQT
-                                  &kp BLUE &kp LGUI &mo LALT                      &mo RAISE &lt LOWER SPACE &kp LGUI
+                                  &mo BLUE &kp LGUI &kp LALT                      &mo RAISE &lt LOWER SPACE &kp LGUI
                         >;
                         sensor-bindings = <&inc_dec_kp LC(LBKT) LC(RBKT)>;
                 };
