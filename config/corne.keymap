@@ -32,7 +32,7 @@
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
    &trans &trans &trans       &trans    &trans   &trans                   &kp Z &kp U  &kp I    &kp O   &kp P    &kp BKSP
-   &trans &trans &trans       &lt RAISE L &kp LBKT &kp RBKT                  &kp H &kp J  &kp K    &kp L   &kp APOS &kp RET
+   &trans &trans &trans       &lt RAISE L &mt LGUI LBKT &mt LSHIFT RBKT                  &kp H &kp J  &kp K    &kp L   &kp APOS &kp RET
    &trans &trans &kp LA(N0)   &lt LOWER W &kp S    &kp LSHFT                            &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp DQT
                                   &lt ORANG Q &kp LGUI &kp LALT                      &mo RAISE &lt LOWER SPACE &kp LGUI
                         >;
