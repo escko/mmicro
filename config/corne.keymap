@@ -15,9 +15,12 @@
 // &left1_encoder { resolution = <2>; };
 // &right_encoder { resolution = <1>; };
 
+&mt {
+    tapping-term-ms = <140>;
+};
 
 &lt {
-    tapping-term-ms = <146>;
+    tapping-term-ms = <140>;
 };
 
 / {
