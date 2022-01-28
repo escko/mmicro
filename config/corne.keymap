@@ -20,7 +20,7 @@
 };
 
 &lt {
-    tapping-term-ms = <140>;
+    tapping-term-ms = <135>;
 };
 
 / {
@@ -36,8 +36,8 @@
                         bindings = <
    &trans &trans &trans       &trans    &trans   &trans                   &kp Z &kp U  &kp I    &kp O   &kp P    &kp BKSP
    &trans &trans &trans       &lt RAISE L &mt LSHIFT LBKT &mt LGUI RBKT                  &kp H &kp J  &kp K    &kp L   &kp APOS &kp RET
-   &trans &trans &kp LA(N0)   &lt LOWER W &kp X    &kp S                            &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp DQT
-                                  &lt ORANG Q &kp E &kp LALT                      &mo RAISE &lt LOWER SPACE &kp LGUI
+   &trans &trans &kp LA(N0)   &lt LOWER W &kp E    &kp S                            &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp DQT
+                                  &lt ORANG Q &kp X &kp LALT                      &mo RAISE &lt LOWER SPACE &kp LGUI
                         >;
                         sensor-bindings = <&inc_dec_kp LBKT RBKT>;
                 };
@@ -49,9 +49,9 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &trans &trans &trans     &trans    &trans   &trans                   &kp Z &kp U  &kp I    &kp O   &kp P    &kp BKSP
-   &trans &trans &trans     &kp N     &kp C    &kp P                 &kp H &kp J  &kp K    &kp L   &kp APOS &kp RET
+   &trans &trans &trans     &kp N     &kp C    &kp I                 &kp H &kp J  &kp K    &kp L   &kp APOS &kp RET
    &trans &trans &trans     &trans     &kp F    &kp O                            &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp DQT
-                                      &kp M &kp T &kp I                       &mo RAISE &lt LOWER SPACE &kp LGUI
+                                      &kp M &kp T &kp P                       &mo RAISE &lt LOWER SPACE &kp LGUI
                         >;
                         sensor-bindings = <&inc_dec_kp LC(LBKT) LC(RBKT)>;
                 };
