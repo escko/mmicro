@@ -16,11 +16,11 @@
 // &right_encoder { resolution = <1>; };
 
 &mt {
-    tapping-term-ms = <120>;
+    tapping-term-ms = <140>;
 };
 
 &lt {
-    tapping-term-ms = <135>;
+    tapping-term-ms = <140>;
 };
 
 / {
