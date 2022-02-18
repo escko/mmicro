@@ -16,7 +16,7 @@
 // &right_encoder { resolution = <1>; };
 
 &mt {
-    tapping-term-ms = <132>;
+    tapping-term-ms = <135>;
 };
 
 &lt {
