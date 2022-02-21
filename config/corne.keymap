@@ -34,10 +34,10 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | SHFT |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &trans &trans &trans       &trans    &trans   &trans                   &kp Z &kp U  &kp I    &kp O   &kp P    &kp BKSP
-   &trans &trans &trans       &lt RAISE W &kp E &mt LGUI RBKT                  &kp H &kp J  &kp K    &kp L   &kp APOS &kp RET
-   &trans &trans &kp LA(N1)   &lt LOWER L &kp S &mt LSHIFT LBKT                           &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp DQT
-                              &lt ORANG Q &kp Z &kp LALT                      &mo RAISE &lt LOWER SPACE &kp LGUI
+   &trans &trans &trans       &trans    &trans   &trans                                  &kp Z &kp U  &kp I    &kp O   &kp P    &kp BKSP
+   &trans &trans &trans       &lt RAISE W &mt LSHIFT LBKT &mt LGUI RBKT                  &kp H &kp J  &kp K    &kp L   &kp APOS &kp RET
+   &trans &trans &kp LA(N1)   &lt LOWER L &kp S &kp E                                    &kp N &kp M  &kp CMMA &kp DOT &kp FSLH &kp DQT
+                              &lt ORANG Q &kp Z &kp LALT                                 &mo RAISE &lt LOWER SPACE &kp LGUI
                         >;
                         sensor-bindings = <&inc_dec_kp N5 N6 >;
                 };
